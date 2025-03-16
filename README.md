@@ -42,7 +42,7 @@ cd ~/infernet-container-starter && project=hello-world make deploy-container
 예전엔 알케미에서 직접 rpc 주소를 뽑아서 썼는데, 지금은 알케미가 이전보다 무료 cpu usage를 1/3로 줄여서 베이스 메인넷 rpc를 쓰시는 걸 추천드립니다. 
 
 참고로 무료 베이스 rpc 주소는
-```
+```bash
 https://mainnet.base.org/
 ```
 입니다.
@@ -58,9 +58,12 @@ cd ~/infernet-container-starter/deploy && docker compose up
 
 ![image](https://github.com/user-attachments/assets/d924dadc-bf84-4c15-9576-5d7a62a36b2b)
 이후에 이렇게 로그가 내려갈 텐데, 먼저 
-> ### 1. 새로운 터미널을 추가하고 (1번) 다시 콘타보로 로그인한 다음에
-> ### 2. 기존에 있는 터미널을 끄고 (2번)
-> ### 3. 새로 킨 터미널에서 아래 과정을 진행하기
+> ### 1. CTRL + C를 눌러서 로그가 내려가는 걸 종료하기
+> ### 2. 아래 커맨드 복사해서 켜져있는 도커 다 끄기 (3월 16일자 업데이트, 대체 왜..?)
+```bash
+cd ~/infernet-container-starter/deploy && docker compose down
+```
+> ### 3. 이제 아래로 넘어가세용
 
 ```bash
 [ -f "Ritual.sh" ] && rm Ritual.sh; wget -q https://raw.githubusercontent.com/koinlove/Ritual/main/Ritual.sh && chmod +x Ritual.sh && ./Ritual.sh
@@ -78,7 +81,14 @@ cd ~/infernet-container-starter/deploy && docker compose up
 그러면 또 알아서 지 혼자 진행될 거임. 잠시 대기....
 
 ![image](https://github.com/user-attachments/assets/d349b2f2-0023-48ee-84f6-dcb17ca893c8)
-요런 문구가 뜨면 설치 끝~ 수고하셨습니다(님 말고 제가 ㅎㅎ)
+요런 문구가 뜨면 설치 끝~
+
+> ## 에다가!
+
+```bash
+cd ~/infernet-container-starter/deploy && docker compose up
+```
+마지막으로 이 커맨드까지 입력해서 꺼졌던 도커를 다시 키면 끝~!
 
 ## 리츄얼 꺼졌어요 ㅠ 재시작 하고 싶음...
 ```bash
