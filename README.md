@@ -38,6 +38,15 @@ cd ~/infernet-container-starter && project=hello-world make deploy-container
 이런 식으로 PRC 입력하는 곳과 Private key를 넣는 칸이 뜰 거에요!
 입력하고 나면 글씨가 약간 잘릴 텐데 오류 아니니 넘어가삼
 
+### 이 쉘 스크립트는 알케미가 아닌 퍼블릭 rpc에 최적화된 스크립트입니다. 
+예전엔 알케미에서 직접 rpc 주소를 뽑아서 썼는데, 지금은 알케미가 이전보다 무료 cpu usage를 1/3로 줄여서 베이스 메인넷 rpc를 쓰시는 걸 추천드립니다. 
+
+참고로 무료 베이스 rpc 주소는
+```
+https://mainnet.base.org/
+```
+입니다.
+
 ![image](https://github.com/user-attachments/assets/6c3cb998-7561-4b2f-a3a4-c9cc38e4d4b3)
 입력을 완료하면 이런 식으로 막 진행될 텐데 매우 빠르게 진행되는 게 맞으니 ㄱㅊㄱㅊ. 이후에
 ```bash
