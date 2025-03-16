@@ -120,7 +120,7 @@ jq --arg rpc "$rpc_url1" --arg priv "$private_key1" \
 	 .chain.trail_head_blocks = 3 |
 	 .chain.registry_address = "0x3B1554f346DFe5c482Bb4BA31b880c1C18412170" |
      .chain.snapshot_sync.sleep = 3 |
-     .chain.snapshot_sync.batch_size = 9500 |
+     .chain.snapshot_sync.batch_size = 1800 |
 	 .chain.snapshot_sync.starting_sub_id = 220000 |
 	 .chain.snapshot_sync.sync_period = 30' $json_1 > $temp_file
 
@@ -134,7 +134,7 @@ jq --arg rpc "$rpc_url1" --arg priv "$private_key1" \
 	 .chain.trail_head_blocks = 3 |
 	 .chain.registry_address = "0x3B1554f346DFe5c482Bb4BA31b880c1C18412170" |
      .chain.snapshot_sync.sleep = 3 |
-     .chain.snapshot_sync.batch_size = 9500 |
+     .chain.snapshot_sync.batch_size = 1800 |
 	 .chain.snapshot_sync.starting_sub_id = 220000 |
 	 .chain.snapshot_sync.sync_period = 30' $json_2 > $temp_file
 
@@ -380,14 +380,14 @@ temp_file=$(mktemp)
 
 # 첫 번째 파일 수정
 jq '.chain.snapshot_sync.sleep = 3 |
-    .chain.snapshot_sync.batch_size = 9500 |
+    .chain.snapshot_sync.batch_size = 1800 |
 	.chain.snapshot_sync.starting_sub_id = 220000 |
 	.chain.snapshot_sync.sync_period = 30' "$json_1" > "$temp_file"
 mv "$temp_file" "$json_1"
 
 # 두 번째 파일 수정
 jq '.chain.snapshot_sync.sleep = 3 |
-    .chain.snapshot_sync.batch_size = 9500 |
+    .chain.snapshot_sync.batch_size = 1800 |
 	.chain.snapshot_sync.starting_sub_id = 220000 |
 	.chain.snapshot_sync.sync_period = 30' "$json_2" > "$temp_file"
 mv "$temp_file" "$json_2"
