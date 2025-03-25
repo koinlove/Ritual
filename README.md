@@ -1,11 +1,58 @@
 # Ritual Node 설치하기(1.4.0)
 현재 나와있는 가장 최신 버젼입니다!
 
+> ### 들어가기 전에 잠깐! 노드를 돌리기 위한 최소 사양이 뭔가요?
+
+![image](https://github.com/user-attachments/assets/35418cd5-12be-4db7-97bc-e6a0ae9502af)
+리츄얼 아카데미 홈페이지에 있는 사진으로 대체하겠습니다~
+
+참고로 VPS로 돌릴 수 있는데(대부분 VPS로 돌림) 요즘 VPS 사이트들 값이 많이 비싸져서 ㅎㅎ;;
+
+![image](https://github.com/user-attachments/assets/2a670773-adbc-4779-9966-47bd241028f6)
+
+
+개인적으로 [콘타보](https://contabo.com/en/vps/)에 들어가셔서 제가 체크한 제품 사는 걸 추천합니다!
+
+![image](https://github.com/user-attachments/assets/df6c6ba1-61a6-41a1-9c79-15d43b320a1e)
+Select 누르시면 이렇게 결제창이 뜨는데, 다른 건 다 건드릴 필요가 없고
+
+![image](https://github.com/user-attachments/assets/89827353-3de8-450a-ac6c-fdf0bbcf8c46)
+## 용량 꼭 500으로 늘리시고!!!!!! (안 하면 진짜 후회함)
+
+![image](https://github.com/user-attachments/assets/41132724-aecc-4222-bbd6-e756e26854a9)
+## Ubuntu 24.04에서 건드리시면 안 됩니다!!! 
+(Apps& Panels에 도커 추가설치 가능한데, 어차피 스크립트에 설치 명령어가 있으니 건드리지 않는 걸 추천합니다)
+
+이제 결제까지 끝나면 님의 메일 주소로 님의 **VPS 디테일**이 올 거임
+
+## 로그인하는 방법
+![image](https://github.com/user-attachments/assets/d677a814-aa9a-4647-b4c6-9fa622363741)
+
+참고로 저는 [터미널](https://apps.microsoft.com/detail/9n0dx20hk701?hl=ko-KR&gl=KR)을 사용하고 있습니다.
+
+터미널이 제일 편하구 다계 관리도 쉬워요! putty나 cmd, powershell 같은 건 너무 불편함.
+
+여기에 이제 로그인을 해야되는데, 명령어는 다음과 같음
+
+```bash
+ssh root@님의.아이피.주소.넣으삼
+```
+참고로 IP 주소는 님 메일주소에 왔을 거임 **가끔 VNC IP 넣는 사람들 있는데, 그건 특수한 경우 아니면 안 씀. IP Address 넣으세요!!**
+
+![image](https://github.com/user-attachments/assets/fb994adf-ec51-4d06-b7b1-6d0aba6c3014)
+
+아이피를 넣으면 이렇게 비밀번호를 입력하라고 뜨는데, 비밀번호 입력하면 됨.
+**참고로 비밀번호 쳐도 뭐 안 보이는 게 맞으니까 걱정 않고 치면 됩니다~**
+
+![image](https://github.com/user-attachments/assets/eba2b922-7bd6-4a7d-ae7d-1cbf674a3817)
+
+그러면 이런 화면과 함께 로그인이 완료됐다는 게 뜰 거임! 그러면 세팅 완료~
+
 ## Ritual Node 설치하는 방법
 ```bash
 [ -f "Ritual.sh" ] && rm Ritual.sh; wget -q https://raw.githubusercontent.com/koinlove/Ritual/main/Ritual.sh && chmod +x Ritual.sh && ./Ritual.sh
 ```
-위 명령어를 **로그인한 콘타보**에 입력하면
+위 명령어를 **로그인한 콘타보(중요)**에 입력하면
 
 ![image](https://github.com/user-attachments/assets/6d206208-f008-4b2f-8eda-76b1df02a634)
 이런 화면이 뜰 거에용. 여기서 1번 입력!
