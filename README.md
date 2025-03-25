@@ -49,21 +49,6 @@ https://mainnet.base.org/
 
 ![image](https://github.com/user-attachments/assets/6c3cb998-7561-4b2f-a3a4-c9cc38e4d4b3)
 입력을 완료하면 이런 식으로 막 진행될 텐데 매우 빠르게 진행되는 게 맞으니 ㄱㅊㄱㅊ. 이후에
-```bash
-cd ~/infernet-container-starter/deploy && docker compose up
-```
-을 넣으면
-![image](https://github.com/user-attachments/assets/d8892654-4dd8-4375-bee9-b957b0ca28f8)
-이런 문구***이미지 업데이트***와 함께 도커가 살아날 것임.
-
-![image](https://github.com/user-attachments/assets/d924dadc-bf84-4c15-9576-5d7a62a36b2b)
-이후에 이렇게 로그가 내려갈 텐데, 먼저 
-> ### 1. CTRL + C를 눌러서 로그가 내려가는 걸 종료하기
-> ### 2. 아래 커맨드 복사해서 켜져있는 도커 다 끄기 (3월 16일자 업데이트, 대체 왜..?)
-```bash
-cd ~/infernet-container-starter/deploy && docker compose down
-```
-> ### 3. 이제 아래로 넘어가세용
 
 ```bash
 [ -f "Ritual.sh" ] && rm Ritual.sh; wget -q https://raw.githubusercontent.com/koinlove/Ritual/main/Ritual.sh && chmod +x Ritual.sh && ./Ritual.sh
@@ -81,14 +66,15 @@ cd ~/infernet-container-starter/deploy && docker compose down
 그러면 또 알아서 지 혼자 진행될 거임. 잠시 대기....
 
 ![image](https://github.com/user-attachments/assets/d349b2f2-0023-48ee-84f6-dcb17ca893c8)
-요런 문구가 뜨면 설치 끝~
+요런 문구가 뜨면 설치는 완료~ 이제 노드를 키려면
 
 > ## 에다가!
 
 ```bash
 cd ~/infernet-container-starter/deploy && docker compose up
 ```
-마지막으로 이 커맨드까지 입력해서 꺼졌던 도커를 다시 키면 끝~!
+마지막으로 이 커맨드까지 입력해서 꺼졌던 도커를 다시 키면 
+> # 진짜 끝~
 
 ## 리츄얼 꺼졌어요 ㅠ 재시작 하고 싶음...
 ```bash
