@@ -66,14 +66,15 @@ https://mainnet.base.org/
 그러면 또 알아서 지 혼자 진행될 거임. 잠시 대기....
 
 ![image](https://github.com/user-attachments/assets/d349b2f2-0023-48ee-84f6-dcb17ca893c8)
-요런 문구가 뜨면 설치는 완료~ 이제 노드를 키려면
+요런 문구가 뜨면 설치는 완료~ 
 
-> ## 에다가!
+> ## 마지막으로 아까 꺼둔 도커까지 다시 켜야됨!!!
 
 ```bash
 cd ~/infernet-container-starter/deploy && docker compose up
 ```
 마지막으로 이 커맨드까지 입력해서 꺼졌던 도커를 다시 키면 
+
 > # 진짜 끝~
 
 ## 리츄얼 꺼졌어요 ㅠ 재시작 하고 싶음...
