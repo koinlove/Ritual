@@ -20,9 +20,9 @@ check_korean_support() {
 
 # 한국어 IF
 if check_korean_support; then
-    echo -e "${CYAN}한글있긔 설치넘기긔.${NC}"
+    echo -e "${CYAN}한글있긔. 설치 넘기긔.${NC}"
 else
-    echo -e "${CYAN}한글없긔, 설치하겠긔.${NC}"
+    echo -e "${CYAN}한글없긔. 설치하겠긔.${NC}"
     sudo apt-get install language-pack-ko -y
     sudo locale-gen ko_KR.UTF-8
     sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
@@ -177,8 +177,8 @@ docker restart hello-world
 echo -e "${BOLD}${MAGENTA}docker ps${NC}"
 docker ps
 
-echo -e "${BOLD}${MAGENTA}이제 터미널에 'cd ~/infernet-container-starter/deploy && docker compose up'을 입력하세요${NC}"
-echo -e "${BOLD}${MAGENTA}명령어를 입력하고 문구들이 주르륵 나오면 아무런 키도 누르지 말고 터미널을 종료한 뒤, 새로운 터미널을 켜서 다시 콘타보에 로그인하세요${NC}"
+echo -e "${BOLD}${MAGENTA} hello-world를 제외한 모든 도커를 종료했습니다.${NC}"
+echo -e "${BOLD}${MAGENTA} 바로 3번을 실행해 주세요~${NC}${BOLD}${RED}★도커가 켜져있을 땐 foundry 작업이 되지 않습니다★ ${NC}"
 }
 
 install_ritual_3() {
@@ -238,7 +238,7 @@ sed "s|SaysGM saysGm = SaysGM(.*)|SaysGM saysGm = SaysGM($says_gm)|" "$callcontr
 echo -e "${CYAN}project=hello-world make call-contract${NC}"
 project=hello-world make call-contract
 
-echo -e "${BOLD}${MAGENTA}리츄얼 설치가 완료됐습니다. 수고하셨습니다. (솔직히 님들이 무슨 수고를 함? 수고는 내가 한 거 아닌가 ㅋㅋ;;)${NC}"
+echo -e "${BOLD}${MAGENTA}리츄얼 설치가 완료됐습니다. 수고하셨습니다~ 웬만한 오류는 제 깃헙 안에서 해결 가능하실 거에요 ㅎㅎ${NC}"
 }
 
 restart_ritual() {
@@ -450,7 +450,7 @@ echo -e "${BOLD}${CYAN}Ritual Node와 관련된 파일들이 삭제됐습니다.
 
 # 메인 메뉴
 echo && echo -e "${BOLD}${MAGENTA} Ritual Node 자동 설치 스크립트${NC} by 코인러브미순
- ${CYAN}원하는 거 고르시고 실행하시고 그러세효. ${NC}
+ ${CYAN}원하는 거 고르시고 실행하시고 그러세요. ${NC}
  ———————————————————————
  ${GREEN} 1. 기본파일 설치 및 Ritual Node 설치 1번(v1.4.0) ${NC}
  ${GREEN} 2. Ritual Node 설치 2번(v1.4.0) ${NC}
@@ -492,6 +492,6 @@ case "$num" in
     uninstall_ritual
     ;;
 *)
-    echo -e "${BOLD}${RED}에휴씨발이제욕도하기싫음죽어버려그냥${NC}"
+    echo -e "${BOLD}${RED} 번호 잘못 입력하신 듯... ㅎㅎ 다시 실행하시면 됩니다 ㅎㅎ${NC}"
     ;;
 esac
