@@ -54,11 +54,13 @@ ssh root@님의.아이피.주소.넣으삼
 ```
 위 명령어를 **로그인한 콘타보(중요)**에 입력하면
 
-![image](https://github.com/user-attachments/assets/6d206208-f008-4b2f-8eda-76b1df02a634)
+![image](https://github.com/user-attachments/assets/75ae02d0-17ec-4cdc-b187-0b895530e20d)
+
 이런 화면이 뜰 거에용. 여기서 1번 입력!
 
 
-![image](https://github.com/user-attachments/assets/b040e024-406d-4590-a76f-d0e2e3873510)
+![image](https://github.com/user-attachments/assets/e7202531-0519-49d2-8dcc-7dad45842c11)
+
 이런 식으로 메세지가 뜨면 설치가 완료된 것!
 
 그 이후에
@@ -71,17 +73,20 @@ cd ~/infernet-container-starter && project=hello-world make deploy-container
 ```
 를 입력해서 컨테이너 계약까지 끝마치기!
 
-![image](https://github.com/user-attachments/assets/59008c6a-2dc4-424a-9772-393d6cd87d65)
+![image](https://github.com/user-attachments/assets/b650e3f4-6926-47ee-b316-fbaf527e28ba)
+
 이런 식으로 괴상한 화면이 떠도 무시하고 > **CTRL + A + D**로 화면 나오기!
 
 ```bash
 [ -f "Ritual.sh" ] && rm Ritual.sh; wget -q https://raw.githubusercontent.com/koinlove/Ritual/main/Ritual.sh && chmod +x Ritual.sh && ./Ritual.sh
 ```
 다시 이 명령어를 입력해서
-![image](https://github.com/user-attachments/assets/76ff74a2-8fd0-4225-97b2-152388215c2e)
+![image](https://github.com/user-attachments/assets/6ed0854b-5469-43e0-94c6-6e4928172af6)
+
 2번을 입력하면
 
-![image](https://github.com/user-attachments/assets/83d9444b-a3bc-43c0-b75f-6a5c875b46a8)
+![image](https://github.com/user-attachments/assets/7f6523af-d826-49cb-80ce-08aaa634f8c5)
+
 이런 식으로 PRC 입력하는 곳과 Private key를 넣는 칸이 뜰 거에요!
 입력하고 나면 글씨가 약간 잘릴 텐데 오류 아니니 넘어가삼
 
@@ -94,25 +99,30 @@ https://mainnet.base.org/
 ```
 입니다.
 
-![image](https://github.com/user-attachments/assets/6c3cb998-7561-4b2f-a3a4-c9cc38e4d4b3)
+![image](https://github.com/user-attachments/assets/61abc8ce-bc11-4448-b331-64896460bb38)
+
 입력을 완료하면 이런 식으로 막 진행될 텐데 매우 빠르게 진행되는 게 맞으니 ㄱㅊㄱㅊ. 이후에
 
 ```bash
 [ -f "Ritual.sh" ] && rm Ritual.sh; wget -q https://raw.githubusercontent.com/koinlove/Ritual/main/Ritual.sh && chmod +x Ritual.sh && ./Ritual.sh
 ```
 다시 이 명령어 입력해서
-![image](https://github.com/user-attachments/assets/76ff74a2-8fd0-4225-97b2-152388215c2e)
+![image](https://github.com/user-attachments/assets/b9c9778c-a144-4a3e-bec7-5f8dbf6bd59d)
+
 이렇게 입력하면 자동으로 절차가 진행될 텐데
 
-![image](https://github.com/user-attachments/assets/153c73b9-ba5d-4dbe-ae8b-0f4d9f8465bf)
+![image](https://github.com/user-attachments/assets/5aef0b3c-facf-4e6f-9600-ca5b7ea44f06)
+
 중간에 이런 문구가 뜰 거임 밑줄친 아이 위치 기억해 뒀다가
 
-![image](https://github.com/user-attachments/assets/fba3a503-0b73-41e5-8fda-a9be04befbbf)
+![image](https://github.com/user-attachments/assets/7ff50435-908e-4152-806a-fe3df15ad84c)
+
 요런 문구가 뜨면 저 밑줄친 곳을 복사해서 붙여넣기!
 
 그러면 또 알아서 지 혼자 진행될 거임. 잠시 대기....
 
-![image](https://github.com/user-attachments/assets/d349b2f2-0023-48ee-84f6-dcb17ca893c8)
+![image](https://github.com/user-attachments/assets/a48f064c-f618-4dd9-bbe2-5180bcd9a803)
+
 요런 문구가 뜨면 설치는 완료~ 
 
 > ## 마지막으로 아까 꺼둔 도커까지 다시 켜야됨!!!
@@ -128,7 +138,8 @@ cd ~/infernet-container-starter/deploy && docker compose up
 ```bash
 [ -f "Ritual.sh" ] && rm Ritual.sh; wget -q https://raw.githubusercontent.com/koinlove/Ritual/main/Ritual.sh && chmod +x Ritual.sh && ./Ritual.sh
 ```
-![image](https://github.com/user-attachments/assets/76ff74a2-8fd0-4225-97b2-152388215c2e)
+![image](https://github.com/user-attachments/assets/c54dd4ea-9e38-4791-8ecd-fd065db5a7f7)
+
 명령어 치고 4번 입력하면 지 혼자 도커 꺼줄 거임!
 
 이후
@@ -136,7 +147,8 @@ cd ~/infernet-container-starter/deploy && docker compose up
 cd ~/infernet-container-starter/deploy && docker compose up
 ```
 을 입력하면 자기 혼자서 또 켜질 거임.
-![image](https://github.com/user-attachments/assets/d924dadc-bf84-4c15-9576-5d7a62a36b2b)
+![image](https://github.com/user-attachments/assets/51126e1b-637e-4261-ae9f-dbd5807cab59)
+
 이후에 이렇게 로그가 내려갈 텐데, 먼저 
 > ### 1. 새로운 터미널을 추가하고 (1번) 다시 콘타보로 로그인한 다음에
 > ### 2. 기존에 있는 터미널을 끄고 (2번)
@@ -148,18 +160,22 @@ cd ~/infernet-container-starter/deploy && docker compose up
 ```
 대체 그걸 왜 바꾸고 싶은지 모르겠지만 혹시나 해서 명령어 넣어봤어요~
 
-![image](https://github.com/user-attachments/assets/d99ba114-5646-46e5-addb-3b24d532d304)
+![image](https://github.com/user-attachments/assets/4d90ebb9-c6f5-441e-a9ab-f59cb066a8bc)
+
 이렇게 넣고 대기하면 알아서 잘 진행될 거임... 대기하고 있다가
 
-![image](https://github.com/user-attachments/assets/153c73b9-ba5d-4dbe-ae8b-0f4d9f8465bf)
+![image](https://github.com/user-attachments/assets/e3e5b2f4-edf4-4696-b1de-afc73953d0b7)
+
 중간에 이런 문구가 뜰 거임 밑줄친 아이 위치 기억해 뒀다가
 
-![image](https://github.com/user-attachments/assets/fba3a503-0b73-41e5-8fda-a9be04befbbf)
+![image](https://github.com/user-attachments/assets/a70f5ff0-9703-42d3-8999-238dbe88c9ca)
+
 요런 문구가 뜨면 저 밑줄친 곳을 복사해서 붙여넣기!
 
 그러면 또 알아서 지 혼자 진행될 거임. 잠시 대기....
 
-![image](https://github.com/user-attachments/assets/d349b2f2-0023-48ee-84f6-dcb17ca893c8)
+![image](https://github.com/user-attachments/assets/3784f9a6-f3d1-4cc9-a96d-7a5d4c2894b8)
+
 요런 문구가 뜨면 지갑주소 변경도 끝~
 
 ## 리츄얼에 등록된 RPC를 바꾸고 싶음...
@@ -167,7 +183,8 @@ cd ~/infernet-container-starter/deploy && docker compose up
 [ -f "Ritual.sh" ] && rm Ritual.sh; wget -q https://raw.githubusercontent.com/koinlove/Ritual/main/Ritual.sh && chmod +x Ritual.sh && ./Ritual.sh
 ```
 
-![image](https://github.com/user-attachments/assets/d41c1e7f-f95d-4119-8b1f-6948c73bd0dd)
+![image](https://github.com/user-attachments/assets/9294f549-811f-4a59-8919-99aeb5975504)
+
 이렇게 잘 입력하면 자기 알아서 진행이 될 거에효. 리스타트도 알아서 진행됨.
 
 근데 만약 리스타트 했는데 RPC가 잘 안 된다? 그럴 땐 
@@ -179,7 +196,8 @@ cd ~/infernet-container-starter/deploy && docker compose up
 [ -f "Ritual.sh" ] && rm Ritual.sh; wget -q https://raw.githubusercontent.com/koinlove/Ritual_Node/main/Ritual.sh && chmod +x Ritual.sh && ./Ritual.sh
 ```
 를 입력하고
-![image](https://github.com/user-attachments/assets/76ff74a2-8fd0-4225-97b2-152388215c2e)
+![image](https://github.com/user-attachments/assets/525d9ea4-a8ad-4617-81d1-d78f0c0297b7)
+
 7번을 선택하면 자동으로 업데이트가 돼요~
 
 ## 리츄얼 업다운을 해도 용량이 안 비워져요...
@@ -204,7 +222,9 @@ df -h
 [ -f "Ritual.sh" ] && rm Ritual.sh; wget -q https://raw.githubusercontent.com/koinlove/Ritual/main/Ritual.sh && chmod +x Ritual.sh && ./Ritual.sh
 ```
 혹시나해서 명령어 넣었어요. 참고로 이거 해도 완벽하게 지워지는 건 아닐 거임 분명. 만약 자기가 리츄얼과 다른 노드를 같이 돌리고 있다, 근데 다른 노드는 초기화하기 어려운 노드(예를 들어, >셀레스티아 노드< 라거나, >엘릭서노드< 라거나, >하이퍼리퀴드< 라거나... 네
-![image](https://github.com/user-attachments/assets/76ff74a2-8fd0-4225-97b2-152388215c2e)
+
+![image](https://github.com/user-attachments/assets/9be1c887-e542-4a10-a452-a33b52c7ddbb)
+
 이렇게 8번 입력하면 알아서 지워줄 거임. 다 되면 다 됐다는 문구 뜨니까 걱정 ㄴㄴ혀
 
 추가 문의사항이 있다면 제 메일로 문의하세요.
